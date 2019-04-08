@@ -1,0 +1,424 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.inline{
+  display: inline;
+}
+.altura{
+  height: 100%;
+}
+
+.plomo{
+  background-color: #E4E1E1;
+}
+.espacio{
+  padding-left:10px;
+}
+.margen_iz{
+  float:left;
+  margin:0px;
+}
+.block{
+  
+  display: block;
+}
+.margen_top{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.scroll{
+  overflow: auto;
+  height: 100px;
+}
+.scroll2{
+  overflow: auto;
+  height: 500px;
+}
+.table{
+  
+  border-collapse: collapse;/*juntamos los border por td y la tabla en si en uno solo*/
+  width: 100%;
+  border: 1px solid #dee1e2;
+  margin-top: 10px;
+  text-align: center;
+
+}
+.centrar{
+  text-align: center;
+  align-content: center;
+  margin-left: 9px;
+  margin-right:9px;
+}
+.recibo{
+  text-align: center;
+  align-content: center;
+  margin-left:30px;
+  margin-top: 59px;
+}
+.centrarImporte{
+  align-content: center;
+}
+.th1{
+width:200px;
+height: 18px;
+height: 18px;
+  text-align: center;/*Alineamos el texto al centro ---th por defecto esta alineado al centro*/
+   /* vertical-align: bottom; Alineamos el texto verticalmente hacia abajo*/
+  padding: 3px 5px;
+  background-color:#215c75;
+  color: white;
+  border: 2px solid #215c75;
+/*border-bottom: 1px solid #ddd;para borde solo horizontal*/
+}
+.th2{
+  width:700px;
+  height: 18px;
+    text-align: center;/*Alineamos el texto al centro ---th por defecto esta alineado al centro*/
+     /* vertical-align: bottom; Alineamos el texto verticalmente hacia abajo*/
+    padding: 3px 5px;
+    background-color:#215c75;
+    color: white;
+    border: 2px solid #215c75;
+  /*border-bottom: 1px solid #ddd;para borde solo horizontal*/
+  }
+.td2{
+  width: 200px;
+  height: 20px;
+  text-align: center;/*Alineamos el texto al centro ---th por defecto esta alineado al centro*/
+   /* vertical-align: bottom; Alineamos el texto verticalmente hacia abajo*/
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #215c75;
+  
+  /*border-bottom: 1px solid #ddd;para borde solo horizontal*/
+  }
+  .td1{
+   text-align: center;
+    
+    /*border-bottom: 1px solid #ddd;para borde solo horizontal*/
+    }
+
+
+.th2:hover {background-color: black ;color: lightblue;  border: 2px solid black;}/*selector de <tr> para resaltar filas,encabezados de la tabla en el mouse:*/
+.tr:nth-child(even) {background-color: white}
+.th1:hover {background-color: black ;color: lightblue;  border: 2px solid black;}/*selector de <tr> para resaltar filas,encabezados de la tabla en el mouse:*/
+.tr:nth-child(even) {background-color: white}
+
+.input{
+    width: 190px;
+    padding: 8px 10px;
+    margin: 2px 2px;
+    display: inline-block;
+    border: 1px solid lightblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-position: 2px 10px; 
+    background-repeat: no-repeat;
+}
+input2{
+  width: 190px;
+  padding: 12px 20px;
+  margin: 8px 3;
+  display: inline-block;
+  text-align:center;
+  border: 1px solid lightblue;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-position: 2px 10px; 
+  background-repeat: no-repeat;
+}
+
+label {
+ 
+  text-align: center;
+  display: block;
+  margin: .5em 0;
+  color: black;
+  font-weight: bold;
+  font-size:15px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 90px;
+
+}
+.mensaje {
+ 
+  text-align: center;
+  margin: .5em 0;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  color: teal;
+  font-size: 18px;
+}
+.color {
+  text-align: center;
+  margin: .5em 0;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  color: teal;
+  font-size: 18px;
+}
+
+
+
+.imprimir{
+ float: right;
+ margin-right:40px;
+}
+.importe{
+  margin-left:0px;
+  margin-right:18px;
+  margin-top:20px;
+ }
+/* 
+.pagination{
+  display: inline-block;
+}
+.pagination li{
+  display: inline;
+}
+.pagination li a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: fuchsia;
+    border: 1px solid #ddd; /* Gray *
+    }
+    /
+
+
+.pagination li a:hover{
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  background: violet;
+}
+.pagination li a.active{
+  background-color: #4CAF50;
+    color: white;
+} */
+.margen2{
+  margin-top: 38px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+ } 
+.margen_izq{
+  margin-left: 65px;
+  margin-right: 20px;
+}
+.seleccionar {
+  color: white;
+  cursor: pointer;
+  cursor: hand;
+  font-size: 20px;
+  
+}
+.margen_der{
+  margin-right: 30px;
+}
+.sin_margen{
+  margin-left: 150px;
+}
+
+.margen3{
+  margin: 10px;
+ 
+}
+.margen{
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #215c75 ;
+}
+h3{
+  background-color:black;
+  color:  lightblue;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 28px;
+  width : 50%;
+  margin: 0 auto;
+  width:100%;
+  font-weight: bold;
+  font-family: 'Exo', sans-serif;
+}
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid lightsteelblue;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  margin:0;
+
+}
+.margen_bottom{
+  padding-bottom: 80px;
+}
+.botonazul{
+  margin-top: 30px;
+}
+.botonazul2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.botonazul23{
+  margin-top: 80px;
+}
+/* .boton{
+  width:45px;
+  height:45px;
+  background-color:#215c75;
+  color:white;
+  margin: auto 0;
+  padding:5px;
+  align-content: center;
+  border-radius: 50px;
+  font-size:45px;
+  text-align:center;
+} */
+/* .boton:hover{
+  
+  background-color: black;
+  color:lightblue;
+} */
+h4{
+  font-size: 20px;
+  color: #042431;
+}
+h5{
+  font-size: 20px;
+  color: #042431;
+  margin-left:20px;
+}
+.material-icons{
+  font-size: 30px;
+}
+.negro{
+  color: black;
+  margin:10px;
+}
+.datos{
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-left:0px;
+  margin-right: 0px;
+}
+.Alumno{
+  color: #215c75;
+  
+}
+.center{
+  text-align: center;
+}
+.checkbox{
+  
+}
+.SplitPane {
+  width: 100%;
+  height: 100%;
+}
+
+.SplitPane-left {
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+.SplitPane-center {
+  float: center;
+  width: 40%;
+  height: 100%;
+}
+.SplitPane-right {
+  float: right;
+  width: 30%;
+  height: 100%;
+}
+.SplitPane-Der {
+  float: left;
+  width: 30%;
+  text-align:center;
+  height: 100%;
+}
+
+.SplitPane-Izq1 {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+.SplitPane-Der1 {
+  float: left;
+  width: 30%;
+  text-align:center;
+  height: 100%;
+}
+
+.SplitPane-Izq {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+.grupo {
+  border-radius: 0px 0px 6px 6px;
+  background-color: #f2f2f2;
+  padding: 29px;
+  width : 50%;
+  margin: 0 auto;
+  width: 420px;
+  border-radius: 15px 60px;
+}
+.vista{
+  padding: 20px 20px;
+  text-decoration: none;
+  display: block;
+  border-radius: 7px;
+}
+
+
+.numero {
+  margin: 0 0 0 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.numero li {
+  position: relative;
+  cursor: pointer;
+  background-color: #EEE;
+  margin: .5em;
+  height: 1.8em;
+  border-radius:4px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+ 
+.numero li:hover {
+  color: #607D8B;
+  background-color: #DDD;
+}
+ 
+button {
+  background-color: #eee;
+  border: none;
+  padding: 0px;
+  margin:0px;
+  border-radius: 8px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
+}
+button.delete {
+  position: relative;
+  float:right;
+  background-color: gray;
+  color: white;
+}
+button.delete:hover{
+  background-color: rgb(168, 60, 60);
+}
